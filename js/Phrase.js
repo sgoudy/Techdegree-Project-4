@@ -10,6 +10,35 @@
  	constructor (phrase){
  		this.phrase = phrase;
  	}
+/** 
+* Display phrase on game board. Regex tests for a letter, if there is one
+* it returns a letter with class "letter". 
+*/ 
+	addPhraseToDisplay() { 
+		const ulElement = document.querySelector('ul');
+		const regex = /^[A-za-z]$/;
+		for(let i =0; i < this.phrase.length; i ++){
+			if (regex.test(this.phrase[i]) === true){
+				const letterHolder = document.createElement('li');
+				letterHolder.setAttribute('class', 'letter');
+				letterHolder.innerHTML = this.phrase[i];
+				ulElement.appendChild(letterHolder);
+			} 
+			else {
+			const spaceHolder = document.createElement('li');
+			spaceHolder.setAttribute('class', 'space');
+			ulElement.appendChild(spaceHolder);
+			}
+		}
+			
+
+	
+
+
+		
+	}
+
+
 
  };
 
