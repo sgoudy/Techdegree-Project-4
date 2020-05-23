@@ -32,16 +32,31 @@
 			}
 		} 
 	}
+/**
+* Checks if passed letter is in phrase
+* @param (string) letter - Letter to check
+*/
+	checkLetter(letter) {
+		//const keys = document.getElementsByClassName('qwerty');
+		//const topRow = keys[0]; // textContent (qwertyuiop)
+		//const middleRow = keys[1]; // textContent (asdfghjkl)
+		//const bottomRow = keys[2]; // textContent (zxcvbnm)
+		for (let i = 0; i < this.phrase.length; i ++){
+			if(this.phrase[i] === letter){
+				console.log('true');
+			} else {
+				console.log('false');
+			}
+		}
+	};
 
-	checkLetter(){
+/**
+* Displays passed letter on screen after a match is found
+* @param (string) letter - Letter to display
+*/
+	showMatchedLetter(letter) {
 
-	}
-
-	showMatchedLetter(){
-
-	}
-
-
+	};
 
  };
 
