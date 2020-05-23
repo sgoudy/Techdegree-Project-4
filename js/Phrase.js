@@ -20,16 +20,25 @@
 		for(let i = 0; i < this.phrase.length; i ++){
 			if (regex.test(this.phrase[i]) === true){
 				const letterHolder = document.createElement('li');
-				letterHolder.setAttribute('class', 'letter');
+				letterHolder.setAttribute('class', 'hide letter ');
+				letterHolder.className += this.phrase[i];
 				letterHolder.innerHTML = this.phrase[i];
 				ulElement.appendChild(letterHolder);
 			} 
 			else {
 				const spaceHolder = document.createElement('li');
-				spaceHolder.setAttribute('class', 'space');
+				spaceHolder.setAttribute('class', 'hide space');
 				ulElement.appendChild(spaceHolder);
 			}
 		} 
+	}
+
+	checkLetter(){
+
+	}
+
+	showMatchedLetter(){
+
 	}
 
 
