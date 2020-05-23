@@ -41,22 +41,28 @@
 		//const topRow = keys[0]; // textContent (qwertyuiop)
 		//const middleRow = keys[1]; // textContent (asdfghjkl)
 		//const bottomRow = keys[2]; // textContent (zxcvbnm)
-		for (let i = 0; i < this.phrase.length; i ++){
-			if(this.phrase[i] === letter){
-				console.log('true');
-			} else {
-				console.log('false');
-			}
-		}
-	};
-
+	 	if (this.phrase.includes(letter)){
+	 			console.log('true');
+	 	} else {
+	 			console.log('false');
+	 	}
+	 }
 /**
 * Displays passed letter on screen after a match is found
 * @param (string) letter - Letter to display
 */
 	showMatchedLetter(letter) {
-
-	};
+		const selectMatch = document.getElementsByClassName(letter);
+		console.log(selectMatch.length);
+		for (let i = 0; i < selectMatch.length; i ++){
+			selectMatch[i].classList.add('show');
+			selectMatch[i].classList.remove('hide');
+		}
+		
+		
+	
+		}
+	
 
  };
 
