@@ -8,16 +8,16 @@
 
  class Phrase {
  	constructor (phrase){
- 		this.phrase = phrase;
- 	}
+ 		this.phrase = phrase.toLowerCase();
+ 	}	
 /** 
-* Display phrase on game board. Regex tests for a letter, if there is one
+* Display phrase on game board. Regex tests for a letter, if there is one,
 * it returns a letter with class "letter". 
 */ 
 	addPhraseToDisplay() { 
 		const ulElement = document.querySelector('ul');
 		const regex = /^[A-za-z]$/;
-		for(let i =0; i < this.phrase.length; i ++){
+		for(let i = 0; i < this.phrase.length; i ++){
 			if (regex.test(this.phrase[i]) === true){
 				const letterHolder = document.createElement('li');
 				letterHolder.setAttribute('class', 'letter');
@@ -25,17 +25,11 @@
 				ulElement.appendChild(letterHolder);
 			} 
 			else {
-			const spaceHolder = document.createElement('li');
-			spaceHolder.setAttribute('class', 'space');
-			ulElement.appendChild(spaceHolder);
+				const spaceHolder = document.createElement('li');
+				spaceHolder.setAttribute('class', 'space');
+				ulElement.appendChild(spaceHolder);
 			}
-		}
-			
-
-	
-
-
-		
+		} 
 	}
 
 

@@ -1,0 +1,790 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"active",
+				"activePhrase"
+			],
+			[
+				"getR",
+				"getRandomPhrase"
+			],
+			[
+				"lett",
+				"letterHolder"
+			],
+			[
+				"apen",
+				"appendChild\t( node: Node ): Node Node"
+			],
+			[
+				"play",
+				"playToken"
+			],
+			[
+				"off",
+				"offsetLeft"
+			],
+			[
+				"html",
+				"htmlToken"
+			],
+			[
+				"unu",
+				"unusedTokens"
+			],
+			[
+				"shirt",
+				"shirtColors"
+			],
+			[
+				"corre",
+				"correctTStyle"
+			],
+			[
+				"corr",
+				"correctTStyle"
+			],
+			[
+				"act",
+				"activitiesDiv"
+			],
+			[
+				"isvali",
+				"isValidCVV"
+			],
+			[
+				"isVal",
+				"isValidNumber"
+			],
+			[
+				"cc",
+				"ccZip"
+			],
+			[
+				"ccn",
+				"ccNum"
+			],
+			[
+				"flex",
+				"inline-flex\tdisplay"
+			],
+			[
+				"spac",
+				"space-between\tjustify-content"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"inline",
+				"inline-flex\tdisplay"
+			],
+			[
+				"fel",
+				"flex\tdisplay"
+			],
+			[
+				"ccz",
+				"ccZipVal"
+			],
+			[
+				"cnsol",
+				"console_log"
+			],
+			[
+				"email",
+				"emailTip"
+			],
+			[
+				"nam",
+				"nameValValue"
+			],
+			[
+				"creat",
+				"createElement\t( localName: DOMString ): Element Document"
+			],
+			[
+				"text",
+				"textContent\t: DOMString Node"
+			],
+			[
+				"getElem",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"activities",
+				"activitiesValFunc"
+			],
+			[
+				"other",
+				"otherTitle"
+			],
+			[
+				"add",
+				"addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"setA",
+				"setAttribute"
+			],
+			[
+				"clas",
+				"className\t: DOMString Element"
+			],
+			[
+				"ema",
+				"emailTip"
+			],
+			[
+				"na",
+				"nameTip"
+			],
+			[
+				"emai",
+				"emailLast"
+			],
+			[
+				"cvv",
+				"cVVTip"
+			],
+			[
+				"emailVal",
+				"emailValValue"
+			],
+			[
+				"field",
+				"fieldset"
+			],
+			[
+				"name",
+				"nameTip"
+			],
+			[
+				"nav",
+				"nameVal"
+			],
+			[
+				"show",
+				"showOrHideTip"
+			],
+			[
+				"cv",
+				"cVVTip"
+			],
+			[
+				"selec",
+				"selectPay"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"cV",
+				"cVV"
+			],
+			[
+				"zip",
+				"zipTip"
+			],
+			[
+				"pay",
+				"paypal"
+			],
+			[
+				"quer",
+				"querySelectorAll"
+			],
+			[
+				"cczip",
+				"ccZipDig"
+			],
+			[
+				"num",
+				"numTip"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"isVa",
+				"isValidZip"
+			],
+			[
+				"ccN",
+				"ccNumVal"
+			],
+			[
+				"ccnumva",
+				"ccNumValDig"
+			],
+			[
+				"ccNum",
+				"ccNumVal"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"cre",
+				"creditCardValidator"
+			],
+			[
+				"c",
+				"cVValue"
+			],
+			[
+				"sele",
+				"selectedValue"
+			],
+			[
+				"sel",
+				"selectPay"
+			],
+			[
+				"paypal",
+				"paypal"
+			],
+			[
+				"se",
+				"selectedValue"
+			],
+			[
+				"border",
+				"borderColor"
+			],
+			[
+				"selected",
+				"selectedValue"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"ac",
+				"activitiesDiv"
+			],
+			[
+				"activ",
+				"activitiesVal"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"nameVa",
+				"nameValValue"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"acti",
+				"activities"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"date",
+				"dateData"
+			],
+			[
+				"data",
+				"dateData"
+			],
+			[
+				"clicke",
+				"clickedType"
+			],
+			[
+				"dat",
+				"dateData"
+			],
+			[
+				"to",
+				"totalActCost"
+			],
+			[
+				"clic",
+				"clickedType"
+			],
+			[
+				"cli",
+				"clickedType"
+			],
+			[
+				"col",
+				"colorOptions"
+			],
+			[
+				"colro",
+				"colorOptions"
+			],
+			[
+				"color",
+				"colorTitle"
+			],
+			[
+				"desi",
+				"design"
+			],
+			[
+				"hide",
+				"hidden"
+			],
+			[
+				"puns",
+				"punsColors"
+			],
+			[
+				"desig",
+				"designName"
+			],
+			[
+				"des",
+				"designName"
+			],
+			[
+				"colr",
+				"colorOptions"
+			],
+			[
+				"js",
+				"jsPuns"
+			],
+			[
+				"user",
+				"userDesign"
+			],
+			[
+				"getEle",
+				"getElementsByClassName"
+			],
+			[
+				"co",
+				"colorOptions"
+			],
+			[
+				"othe",
+				"otherTitle"
+			],
+			[
+				"appen",
+				"appendChild"
+			],
+			[
+				"div",
+				"divSearch"
+			],
+			[
+				"di",
+				"divSearch"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"sear",
+				"searchDiv"
+			],
+			[
+				"student",
+				"studentName"
+			],
+			[
+				"item",
+				"itemLoc"
+			],
+			[
+				"stud",
+				"studentName"
+			],
+			[
+				"ul",
+				"ulStudLis"
+			],
+			[
+				"stude",
+				"student-item"
+			],
+			[
+				"input",
+				"inputSearch"
+			],
+			[
+				"inpt",
+				"inputSearch"
+			],
+			[
+				"inpu",
+				"inputUpper"
+			],
+			[
+				"studen",
+				"studentName"
+			],
+			[
+				"stu",
+				"studSearchBut"
+			],
+			[
+				"searc",
+				"searchBar"
+			],
+			[
+				"search",
+				"searchBar"
+			],
+			[
+				"sea",
+				"searchBar"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"appe",
+				"appendChild"
+			],
+			[
+				"body",
+				"bodyEl"
+			],
+			[
+				"queryS",
+				"querySelectorAll"
+			],
+			[
+				"button",
+				"buttonsAll"
+			],
+			[
+				"but",
+				"buttonsAll"
+			],
+			[
+				"butt",
+				"buttonsAll"
+			],
+			[
+				"first",
+				"firstButton"
+			],
+			[
+				"all",
+				"allA"
+			],
+			[
+				"set",
+				"setAction"
+			],
+			[
+				"qur",
+				"querySelectorAll"
+			],
+			[
+				"element",
+				"elementClassName"
+			],
+			[
+				"create",
+				"createTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"liv",
+				"LiveReload: Self test"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"materi",
+				"Material Theme: Configuration"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Install package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 73.0,
+		"history":
+		[
+			"clear",
+			"node Game.js",
+			"node.Game.js",
+			"node game.js",
+			"node pseudo_quiz_gpa.js",
+			"node.js",
+			"clear",
+			"node.js",
+			"node pseudo_quiz_gpa.js"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/LiveReload/SimpleReloadPlugin.py",
+		"/Users/shelbygoudy/Desktop/sandbox/app.js",
+		"/Users/shelbygoudy/Desktop/sandbox/indexA.html",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/Users/shelbygoudy/Desktop/sandbox/index.html",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/Game.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/js/app.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/animate.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/styles.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/index.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/example_phrase_html.txt",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/Phrase.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-4/Project 4",
+		"/Users/shelbygoudy/Documents/(2) CODE/Repeat Timer (clock)/styles.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/Repeat Timer (clock)/index.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/Repeat Timer (clock)/clock.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage5 - Adding the Game Logic/Stage5Step2 - Build the mark() Method/js/Space.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step8 - Build the playToken() Method/js/Game.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step5 - Build the drop() Method/js/Token.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage4 - Making the Game Interactive/Stage4Step3 - Build the moveLeft() and moveRight() Methods/js/Game.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage2 - Building Constructor Methods and Generating Objects/Stage2Step8 - Board and Space Class Constructor methods/js/app.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage2 - Building Constructor Methods and Generating Objects/Stage2Step8 - Board and Space Class Constructor methods/js/Player.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage2 - Building Constructor Methods and Generating Objects/Stage2Step8 - Board and Space Class Constructor methods/js/Token.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage2 - Building Constructor Methods and Generating Objects/Stage2Step8 - Board and Space Class Constructor methods/js/Board.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage2 - Building Constructor Methods and Generating Objects/Stage2Step8 - Board and Space Class Constructor methods/js/Space.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage2 - Building Constructor Methods and Generating Objects/Stage2Step8 - Board and Space Class Constructor methods/js/Game.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step5 - Creating Class Files/js/Token.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step5 - Creating Class Files/js/Player.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step5 - Creating Class Files/js/Board.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step5 - Creating Class Files/js/Space.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step5 - Creating Class Files/js/Game.js",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/User/JavaScript-Completions.sublime-settings",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-3/interactive-form-v2 2/js/script.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/CBS/css/design.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/CBS/index.html",
+		"/Users/shelbygoudy/Desktop/Photos/CBS JPG/DJI_0838.JPG",
+		"/Users/shelbygoudy/Documents/(2) CODE/RSVP App/start/index.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-3/interactive-form-v2 2/css/style.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-3/interactive-form-v2 2/index.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/CBS/script.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-3/interactive-form-v2 2/script.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-3/interactive-form-v2 2/css/normalize.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-3",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/js/script.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/index.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/css/design.css",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/.gitignore",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/examples/64students.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/examples/44students.html",
+		"/Users/shelbygoudy/Documents/(2) CODE/Techdegree-Project-2/README.md",
+		"/Users/shelbygoudy/Documents/(2) CODE/Unit 2 Project Pagination and Filtering/list_pagination_and_filtering-v1 (1)/script.js",
+		"/Users/shelbygoudy/Unit-2-Project-Pagination-and-Filtering/list_pagination_and_filtering-v1 (1)/script.js",
+		"/Users/shelbygoudy/Library/Application Support/Sublime Text 3/Packages/User/JSC.sublime-build",
+		"/Users/shelbygoudy/Documents/(2) CODE/Unit 2 Project Pagination and Filtering/script.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Pseudocode Example/pseudo_quiz_gpa.js",
+		"/Users/shelbygoudy/Documents/(2) CODE/Pseudocode Example/conditional.txt",
+		"/Users/shelbygoudy/Documents/(2) CODE/Pseudocode Example/student_grades.txt",
+		"/Users/shelbygoudy/Documents/(2) CODE/Pseudocode Example/gpa.txt",
+		"/Users/shelbygoudy/Documents/(2) CODE/Pseudocode Example/print_sum.txt",
+		"/Users/shelbygoudy/Documents/(2) CODE/RSVP App/app.js",
+		"/Users/shelbygoudy/Downloads/3-improving-the-application-code.zip",
+		"/Users/shelbygoudy/Documents/Logo/Standard Logo Files/Grayscale on Transparent.png",
+		"/Users/shelbygoudy/Documents/Logo/Standard Logo Files/Black on White.png",
+		"/Users/shelbygoudy/Documents/(2) CODE/TechDegree-Project-1/README.md"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 184.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/JSC.sublime-build",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
