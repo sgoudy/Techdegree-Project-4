@@ -53,15 +53,11 @@
 */
 	showMatchedLetter(letter) {
 		const selectMatch = document.getElementsByClassName(letter);
-		console.log(selectMatch.length);
 		for (let i = 0; i < selectMatch.length; i ++){
 			selectMatch[i].classList.add('show');
 			selectMatch[i].classList.remove('hide');
 		}
-		
-		
-	
-		}
+	}
 	
 
  };

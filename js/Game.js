@@ -54,5 +54,21 @@
 	}
 ***/
 
- };
+/**
+* Checks for winning move
+* @return {boolean} True if game has been won, false if game wasn't
+won
+*/
+	checkForWin() {
+		const hiddenLetter = document.getElementsByClassName('hide letter');
+			if (hiddenLetter.length > 0) console.log('keep working');
+			else {console.log('win!');}
+			};
+ /**
+* Increases the value of the missed property
+* Removes a life from the scoreboard
+* Checks if player has remaining lives and ends game if player is out
 
+removeLife() {};
+*/
+}
