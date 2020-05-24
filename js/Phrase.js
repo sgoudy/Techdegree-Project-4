@@ -42,10 +42,8 @@
 		//const middleRow = keys[1]; // textContent (asdfghjkl)
 		//const bottomRow = keys[2]; // textContent (zxcvbnm)
 	 	if (this.phrase.includes(letter)){
-	 			console.log('true');
-	 	} else {
-	 			console.log('false');
-	 	}
+	 			return true;
+	 	} return false;
 	 }
 /**
 * Displays passed letter on screen after a match is found

@@ -61,14 +61,45 @@ won
 */
 	checkForWin() {
 		const hiddenLetter = document.getElementsByClassName('hide letter');
-			if (hiddenLetter.length > 0) return false;
-			else {return true;}
+		if (hiddenLetter.length > 0) return false;
+		else if (hiddenLetter.length === 0){
+			return this.gameOver(true);}
 			};
- /**
+/**
 * Increases the value of the missed property
 * Removes a life from the scoreboard
 * Checks if player has remaining lives and ends game if player is out
-
-removeLife() {};
 */
+	removeLife() {
+		const hearts = document.querySelectorAll('img');
+		const heartArr = [...hearts];
+		let liveHeart = heartArr.find(life => life.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/liveHeart.png");
+		liveHeart.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/lostHeart.png";
+		this.missed += 1;
+		if (this.missed === 5) {
+			return this.gameOver(false);
+		} 
+	};
+/**
+* Displays game over message
+* @param {boolean} gameWon - Whether or not the user won the game
+*/
+	gameOver(gameWon){
+		if (gameWon === true){
+			const overlayDiv = document.getElementById('overlay');
+			overlayDiv.style.display = '';
+			overlayDiv.style.backgroundColor = 'green';
+			const h1 = document.getElementById('game-over-message');
+			h1.style.display = '';
+			h1.textContent = "You're a WINNER!";
+		} else if (gameWon === false){
+			const overlayDiv = document.getElementById('overlay');
+			overlayDiv.style.display = '';
+			overlayDiv.style.backgroundColor = 'red';
+			const h1 = document.querySelector('h1');
+			h1.style.display = '';
+			h1.textContent = 'Sorry, better luck next time!!';
+		}
+	};
+
 }
