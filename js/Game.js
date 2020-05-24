@@ -61,8 +61,8 @@ won
 */
 	checkForWin() {
 		const hiddenLetter = document.getElementsByClassName('hide letter');
-			if (hiddenLetter.length > 0) console.log('keep working');
-			else {console.log('win!');}
+			if (hiddenLetter.length > 0) return false;
+			else {return true;}
 			};
  /**
 * Increases the value of the missed property
