@@ -36,21 +36,25 @@
 * Checks if passed letter is in phrase
 * @param (string) letter - Letter to check
 */
-	checkLetter(letter) {
-		//const keys = document.getElementsByClassName('qwerty');
-		//const topRow = keys[0]; // textContent (qwertyuiop)
-		//const middleRow = keys[1]; // textContent (asdfghjkl)
-		//const bottomRow = keys[2]; // textContent (zxcvbnm)
-	 	if (this.phrase.includes(letter)){
-	 			return true;
-	 	} return false;
-	 }
+	checkLetter(button) {	 
+	const ph = game.activePhrase.phrase;
+	const letter = Object.values(ph);
+	const text = button.textContent;
+	if (letter.indexOf(text) > -1){
+		this.showMatchedLetter(text);
+		game.checkForWin();
+	} else {
+		game.removeLife();
+		console.log('another life lost');
+		}
+	}
+	 
 /**
 * Displays passed letter on screen after a match is found
 * @param (string) letter - Letter to display
 */
-	showMatchedLetter(letter) {
-		const selectMatch = document.getElementsByClassName(letter);
+	showMatchedLetter(text) {
+		const selectMatch = document.getElementsByClassName(text);
 		for (let i = 0; i < selectMatch.length; i ++){
 			selectMatch[i].classList.add('show');
 			selectMatch[i].classList.remove('hide');

@@ -8,6 +8,16 @@ document.getElementById('btn__reset').addEventListener('click', function(){
 });
 
 
+const keys = document.getElementsByClassName('key');
+	for (let key of keys){
+		key.addEventListener('click', (button) => game.handleInteraction(button));
+	}
+
+
+
+		
+
+
 
 
 

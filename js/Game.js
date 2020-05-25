@@ -47,12 +47,18 @@
 		this.activePhrase = this.getRandomPhrase();
 		return this.activePhrase.addPhraseToDisplay();
 	}
-	
-/***
-	handleInteraction(){
-
+/**
+* Handles onscreen keyboard button clicks
+* @param (button) button - The clicked button element
+*/	
+	handleInteraction(button){
+		button.target.disabled = true;
+		//console.log(button.target.textContent);
+		button.target.style.backgroundColor = 'navy';
+		button.target.style.color = 'white';
+		this.activePhrase.checkLetter(button.target);
 	}
-***/
+
 
 /**
 * Checks for winning move
@@ -61,10 +67,10 @@ won
 */
 	checkForWin() {
 		const hiddenLetter = document.getElementsByClassName('hide letter');
-		if (hiddenLetter.length > 0) return false;
-		else if (hiddenLetter.length === 0){
-			return this.gameOver(true);}
-			};
+		if (hiddenLetter.length === 0){
+			return this.gameOver(true);
+		}
+	};
 /**
 * Increases the value of the missed property
 * Removes a life from the scoreboard
