@@ -79,9 +79,8 @@ won
 	removeLife() {
 		const hearts = document.querySelectorAll('img');
 		const heartArr = [...hearts];
-		let liveHeart = heartArr.find(life => life.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/liveHeart.png");
-		liveHeart.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/lostHeart.png";
 		this.missed += 1;
+		heartArr[this.missed-1].src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/lostHeart.png";
 		if (this.missed === 5) {
 			return this.gameOver(false);
 		} 
