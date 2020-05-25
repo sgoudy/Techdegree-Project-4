@@ -86,6 +86,7 @@ won
 * @param {boolean} gameWon - Whether or not the user won the game
 */
 	gameOver(gameWon){
+		// Winner actions
 		if (gameWon === true){
 			const overlayDiv = document.getElementById('overlay');
 			overlayDiv.style.display = '';
@@ -93,6 +94,7 @@ won
 			const h1 = document.getElementById('game-over-message');
 			h1.style.display = '';
 			h1.textContent = "I knew what they said about you wasn't true. You're a WINNER ;)";
+		// Loser actions	
 		} else if (gameWon === false){
 			const overlayDiv = document.getElementById('overlay');
 			overlayDiv.style.display = '';
@@ -101,33 +103,25 @@ won
 			h1.style.display = '';
 			h1.textContent = 'Bummer, dude. Come on, try again!!';
 		}
+		// All of the game RESET functions
 		const li = document.getElementById('phrase').childNodes[1].childNodes;
 		const liArr = [...li];
 		const ul = document.getElementById('phrase').childNodes[1];
 			for (let i = 0; i < liArr.length; i ++){
 				ul.removeChild(liArr[i]);
 			}
+		// Reset life count and heart images
 		this.missed = 0;
 		const hearts = document.querySelectorAll('img');
 		const heartArr = [...hearts];
 		heartArr.forEach(heart => heart.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/liveHeart.png");
+		// Reenable keys and reset colors
 		const keys = document.getElementsByClassName('key');
 		for (let key of keys){
 			key.classList.remove('chosen');
 			key.classList.remove('wrong');
 			key.removeAttribute('disabled');
 		}
-		
-		
-		
-		//for ()
-		/*
-		if (li.length > 0){
-			for (let i = 0; i < li.length; i ++){
-				li[i].parentNode.removeChild(li[i]);
-			}
-		ul.removeChild(li);
-		*/
 	};
 
 }
