@@ -43,9 +43,10 @@
 */
 	startGame() {
 		const overlayDiv = document.getElementById('overlay');
-		overlayDiv.style.display = 'none';
+		overlayDiv.style.display = 'none';	
 		this.activePhrase = this.getRandomPhrase();
 		return this.activePhrase.addPhraseToDisplay();
+		
 	}
 /**
 * Handles onscreen keyboard button clicks
@@ -53,13 +54,8 @@
 */	
 	handleInteraction(button){
 		button.target.disabled = true;
-		//console.log(button.target.textContent);
-		button.target.style.backgroundColor = 'navy';
-		button.target.style.color = 'white';
 		this.activePhrase.checkLetter(button.target);
 	}
-
-
 /**
 * Checks for winning move
 * @return {boolean} True if game has been won, false if game wasn't
@@ -93,18 +89,45 @@ won
 		if (gameWon === true){
 			const overlayDiv = document.getElementById('overlay');
 			overlayDiv.style.display = '';
-			overlayDiv.style.backgroundColor = 'green';
+			overlayDiv.classList.add('win');
 			const h1 = document.getElementById('game-over-message');
 			h1.style.display = '';
-			h1.textContent = "You're a WINNER!";
+			h1.textContent = "I knew what they said about you wasn't true. You're a WINNER ;)";
 		} else if (gameWon === false){
 			const overlayDiv = document.getElementById('overlay');
 			overlayDiv.style.display = '';
-			overlayDiv.style.backgroundColor = 'red';
+			overlayDiv.classList.add('lose');
 			const h1 = document.querySelector('h1');
 			h1.style.display = '';
-			h1.textContent = 'Sorry, better luck next time!!';
+			h1.textContent = 'Bummer, dude. Come on, try again!!';
 		}
+		const li = document.getElementById('phrase').childNodes[1].childNodes;
+		const liArr = [...li];
+		const ul = document.getElementById('phrase').childNodes[1];
+			for (let i = 0; i < liArr.length; i ++){
+				ul.removeChild(liArr[i]);
+			}
+		this.missed = 0;
+		const hearts = document.querySelectorAll('img');
+		const heartArr = [...hearts];
+		heartArr.forEach(heart => heart.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/liveHeart.png");
+		const keys = document.getElementsByClassName('key');
+		for (let key of keys){
+			key.classList.remove('chosen');
+			key.classList.remove('wrong');
+			key.removeAttribute('disabled');
+		}
+		
+		
+		
+		//for ()
+		/*
+		if (li.length > 0){
+			for (let i = 0; i < li.length; i ++){
+				li[i].parentNode.removeChild(li[i]);
+			}
+		ul.removeChild(li);
+		*/
 	};
 
 }

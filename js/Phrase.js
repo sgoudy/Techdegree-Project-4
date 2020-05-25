@@ -5,7 +5,6 @@
  /**
  * Handle Creation of Phrases.
  **/
-
  class Phrase {
  	constructor (phrase){
  		this.phrase = phrase.toLowerCase();
@@ -34,24 +33,24 @@
 	}
 /**
 * Checks if passed letter is in phrase
-* @param (string) letter - Letter to check
+* @param (string) button - Letter to check
 */
 	checkLetter(button) {	 
-	const ph = game.activePhrase.phrase;
-	const letter = Object.values(ph);
+	const phraze = game.activePhrase.phrase;
+	const letter = Object.values(phraze);
 	const text = button.textContent;
 	if (letter.indexOf(text) > -1){
+		button.classList.add('chosen');
 		this.showMatchedLetter(text);
 		game.checkForWin();
 	} else {
+		button.classList.add('wrong');
 		game.removeLife();
-		console.log('another life lost');
 		}
 	}
-	 
 /**
 * Displays passed letter on screen after a match is found
-* @param (string) letter - Letter to display
+* @param (string) text - Letter to display
 */
 	showMatchedLetter(text) {
 		const selectMatch = document.getElementsByClassName(text);
@@ -60,8 +59,6 @@
 			selectMatch[i].classList.remove('hide');
 		}
 	}
-	
-
  };
 
  
