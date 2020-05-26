@@ -8,13 +8,17 @@ document.getElementById('btn__reset').addEventListener('click', function(){
 });
 // User interface with on-screen keyboard.
 const keys = document.getElementsByClassName('key');
-	for (let key of keys){
-		key.addEventListener('click', (button) => game.handleInteraction(button));
+for (let key of keys){	
+ 	key.addEventListener('click', (button) => 
+		game.handleInteraction(button));
 	}
 
 
 
-		
+
+
+
+
 
 
 

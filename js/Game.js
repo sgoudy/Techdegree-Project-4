@@ -9,7 +9,6 @@
  * Checking for a Win,
  * Removing a Life from Scoreboard.
  **/
-
  class Game {
  	constructor (){
  		this.missed = 0; // initial value
@@ -37,7 +36,7 @@
 	getRandomPhrase(){
 		const randomNum = Math.floor(Math.random()*5);
 		return this.phrases[randomNum];
-	};
+	}
 /**
 * Begins game by selecting a random phrase and displaying it to user 
 */
@@ -46,7 +45,6 @@
 		overlayDiv.style.display = 'none';	
 		this.activePhrase = this.getRandomPhrase();
 		return this.activePhrase.addPhraseToDisplay();
-		
 	}
 /**
 * Handles onscreen keyboard button clicks
@@ -66,7 +64,7 @@ won
 		if (hiddenLetter.length === 0){
 			return this.gameOver(true);
 		}
-	};
+	}
 /**
 * Increases the value of the missed property
 * Removes a life from the scoreboard
@@ -76,11 +74,11 @@ won
 		const hearts = document.querySelectorAll('img');
 		const heartArr = [...hearts];
 		this.missed += 1;
-		heartArr[this.missed-1].src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/lostHeart.png";
+		heartArr[this.missed-1].src = "images/lostHeart.png";
 		if (this.missed === 5) {
 			return this.gameOver(false);
 		} 
-	};
+	}
 /**
 * Displays game over message
 * @param {boolean} gameWon - Whether or not the user won the game
@@ -107,14 +105,14 @@ won
 		const li = document.getElementById('phrase').childNodes[1].childNodes;
 		const liArr = [...li];
 		const ul = document.getElementById('phrase').childNodes[1];
-			for (let i = 0; i < liArr.length; i ++){
-				ul.removeChild(liArr[i]);
-			}
+		for (let i = 0; i < liArr.length; i ++){
+			ul.removeChild(liArr[i]);
+		}
 		// Reset life count and heart images
 		this.missed = 0;
 		const hearts = document.querySelectorAll('img');
 		const heartArr = [...hearts];
-		heartArr.forEach(heart => heart.src = "file:///Users/shelbygoudy/Documents/(2)%20CODE/Techdegree-Project-4/images/liveHeart.png");
+		heartArr.forEach(heart => heart.src = "images/liveHeart.png");
 		// Reenable keys and reset colors
 		const keys = document.getElementsByClassName('key');
 		for (let key of keys){
@@ -122,6 +120,5 @@ won
 			key.classList.remove('wrong');
 			key.removeAttribute('disabled');
 		}
-	};
-
+	}
 }

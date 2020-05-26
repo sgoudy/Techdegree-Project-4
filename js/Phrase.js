@@ -63,6 +63,4 @@
 			selectMatch[i].classList.remove('hide');
 		}
 	}
- };
-
- 
+ }
