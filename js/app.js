@@ -7,19 +7,12 @@ document.getElementById('btn__reset').addEventListener('click', function(){
 	game.startGame();
 });
 // User interface with on-screen keyboard.
-// 
-const onscreenKeyboard = document.getElementById('qwerty');
-onscreenKeyboard.addEventListener('click', (event) => {
-	if (event.target.tagName === 'BUTTON'){
-	game.handleInteraction(event.target);
-	}
+document.getElementById('qwerty').addEventListener('click', (event) => {
+	keyBtn = event.target;
+	if (keyBtn.tagName === 'BUTTON'){
+	game.handleInteraction(keyBtn);
+	} 
 });
-
-//document.addEventListener('keydown', (e) => game.handleInteraction(e)); 
-
-
-
-
 
 
 
