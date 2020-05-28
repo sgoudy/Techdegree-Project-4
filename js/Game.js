@@ -51,8 +51,10 @@
 * @param (button) button - The clicked button element
 */	
 	handleInteraction(button){
-		button.target.disabled = true;
-		this.activePhrase.checkLetter(button.target);
+		const keyValue = button.target.innerHTML;
+		const key = button.target;
+		key.disabled = true;
+		this.activePhrase.checkLetter(key);
 	}
 /**
 * Checks for winning move

@@ -35,29 +35,28 @@
 	}
 /**
 * Checks if passed letter is in phrase
-* @param (string) button - Letter to check
+* @param (string) letter - Letter to check
 */
-	checkLetter(button) {	 
-	const phraze = game.activePhrase.phrase;
-	const letter = Object.values(phraze);
-	const text = button.textContent;
-	// If the letter is in the phrase, do this. 
-	if (letter.indexOf(text) > -1){
-		button.classList.add('chosen');
-		this.showMatchedLetter(text);
+	checkLetter(letter) {	 
+		const letterValue = letter.innerHTML;
+	// If the letter is in the phrase, 
+	if (this.phrase.indexOf(letterValue)> -1){
+		letter.classList.add('chosen');
+		this.showMatchedLetter(letter);
 		game.checkForWin();
-	// If the letter is not in the phrase, do this.
+	// If the letter is not in the phrase, 
 	} else {
-		button.classList.add('wrong');
+		letter.classList.add('wrong');
 		game.removeLife();
 		}
 	}
 /**
 * Displays passed letter on screen after a match is found
-* @param (string) text - Letter to display
+* @param (string) letter - Letter to display
 */
-	showMatchedLetter(text) {
-		const selectMatch = document.getElementsByClassName(text);
+	showMatchedLetter(letter) {	
+		const letterValue = letter.innerHTML;
+		const selectMatch = document.getElementsByClassName(letterValue);
 		for (let i = 0; i < selectMatch.length; i ++){
 			selectMatch[i].classList.add('show');
 			selectMatch[i].classList.remove('hide');
