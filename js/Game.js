@@ -48,13 +48,12 @@
 	}
 /**
 * Handles onscreen keyboard button clicks
-* @param (button) button - The clicked button element
+* @param (HTMLButtonElement) button - The clicked button element
 */	
 	handleInteraction(button){
-		const keyValue = button.target.innerHTML;
-		const key = button.target;
-		key.disabled = true;
-		this.activePhrase.checkLetter(key);
+		const keyValue = button.innerHTML;
+		button.disabled = true;
+		this.activePhrase.checkLetter(button);
 	}
 /**
 * Checks for winning move
@@ -91,6 +90,7 @@ won
 			const overlayDiv = document.getElementById('overlay');
 			overlayDiv.style.display = '';
 			overlayDiv.classList.add('win');
+			overlayDiv.classList.remove('lose');
 			const h1 = document.getElementById('game-over-message');
 			h1.style.display = '';
 			h1.textContent = "I knew what they said about you wasn't true. You're a WINNER ;)";
@@ -98,13 +98,14 @@ won
 		} else if (gameWon === false){
 			const overlayDiv = document.getElementById('overlay');
 			overlayDiv.style.display = '';
+			overlayDiv.classList.remove('win');
 			overlayDiv.classList.add('lose');
 			const h1 = document.querySelector('h1');
 			h1.style.display = '';
 			h1.textContent = 'Bummer, dude. Come on, try again!!';
 		}
 		// All of the game RESET functions
-		const li = document.getElementById('phrase').childNodes[1].childNodes;
+		const li = document.querySelector('ul').childNodes;
 		const liArr = [...li];
 		const ul = document.getElementById('phrase').childNodes[1];
 		for (let i = 0; i < liArr.length; i ++){
