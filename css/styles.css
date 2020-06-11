@@ -28,6 +28,7 @@ body {
   flex-direction: column;
   display: flex;
   height: 100vh;
+  background-color: black;
 }
 
 li, ol, ul {
@@ -86,16 +87,16 @@ button {
 /* Title */
 
 .header {
-  color: #3a3f58;
+  color: white;
 }
 
 
 /* Phrase */
 
 .letter {
-  font-size: var(--font-size-medium);
+  font-size: 25px;
   height: 65px;
-  width: 65px;
+  width: 50px;
   padding: 20px 1px 0 1px;
   margin-right: 2px;
   color: transparent;
@@ -104,17 +105,18 @@ button {
 }
 
 .space {
-  width: 15px;
+  width: 25px;
 }
 
 
 
 .show {
-  color: #fff;
-  background-color: #4ac0d5;
-  font-size: 20px;
+  color: black;
+  background: var(--color-neutral-light);
+  font-size: 25px;
+  font-weight: bold;
   height: 65px;
-  width: 65px;
+  width: 50px;
   padding: 20px 1px 0 1px;
   margin-right: 2px;
   border-radius: 5px;
@@ -166,7 +168,7 @@ button {
   display: flex;
   flex-direction: column;
   position: fixed;
-  color: #FFFFFF;
+  color: black;
   justify-content: center;
   top: 0;
   bottom: 0;
@@ -180,7 +182,7 @@ button {
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: black;
 }
 
 .start a {
