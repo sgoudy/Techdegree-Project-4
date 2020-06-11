@@ -51,6 +51,7 @@
 * @param (HTMLButtonElement) button - The clicked button element
 */	
 	handleInteraction(button){
+	//if ()	
 		const keyValue = button.innerHTML;
 		button.disabled = true;
 		this.activePhrase.checkLetter(button);

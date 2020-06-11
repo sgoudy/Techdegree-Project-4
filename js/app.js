@@ -14,6 +14,17 @@ document.getElementById('qwerty').addEventListener('click', (event) => {
 	} 
 });
 
+document.addEventListener('keydown', (e) => {
+	const qwerty = document.querySelectorAll('.key');
+	const key = e.key;
+	qwerty.forEach(each => {
+		if (key === each.textContent){
+			game.handleInteraction(each)
+		}
+	})	
+})
+
+
 
 
 
